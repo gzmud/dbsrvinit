@@ -1,2 +1,2 @@
 # dbsrvinit
-For Debian server setup.
+A Simple script for Debian server setup.
