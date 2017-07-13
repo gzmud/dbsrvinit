@@ -89,3 +89,16 @@ db_bbr
 #db_ssport
 
 }
+
+function db_help()
+{
+Cat << EOF
+This is Help file for this script:
+
+Usage:
+. dbinitcmd.sh && db_help
+and so on...
+EOF
+}
+
+db_help
