@@ -44,7 +44,7 @@ apt-get install -y debian-archive-keyring nano screen
 function db_ss()
 {
 apt-get install -y shadowsocks-libev
-$sspwd=$1
+sspwd=$1
 cat << EOF > /etc/shadowsocks-libev/config.json
 {
     "server":"0.0.0.0",
