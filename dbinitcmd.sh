@@ -92,7 +92,7 @@ db_bbr
 
 function db_help()
 {
-Cat << EOF
+cat << EOF
 This is Help file for this script:
 
 Usage:
