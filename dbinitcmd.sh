@@ -102,7 +102,7 @@ This is Help file for this script:
 
 Usage:
 
-wget -cache=off https://raw.github.com/gzmud/dbsrvinit/master/dbinitcmd.sh && chmod +x dbinitcmd.sh  && . dbinitcmd.sh && db_help
+wget --cache=off https://raw.github.com/gzmud/dbsrvinit/master/dbinitcmd.sh && chmod +x dbinitcmd.sh  && . dbinitcmd.sh && db_help
 
 . dbinitcmd.sh && db_help
 
